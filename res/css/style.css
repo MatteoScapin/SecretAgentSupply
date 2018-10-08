@@ -132,7 +132,19 @@ nav ul {
   line-height: 1.5rem;
 }
 
+/*Footer*/
+footer {
+  background-color: #000;
+  color: #fff;
+}
 
+.footer-container {
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 5rem;
+}
 
 
 
