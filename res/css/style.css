@@ -1,0 +1,30 @@
+/*General*/
+html {
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/*Header*/
+.logo {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo img {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.logo span {
+  margin: 0.66rem 0;
+}
