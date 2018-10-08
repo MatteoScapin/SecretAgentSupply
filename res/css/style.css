@@ -4,6 +4,16 @@ html {
   font-family: 'Helvetica', sans-serif;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /*Header*/
 .logo {
   background-color: #000;
@@ -11,7 +21,7 @@ html {
   width: 100%;
 }
 
-.container-logo {
+.logo-container {
   display: flex;
   align-items: center;
   max-width: 960px;
@@ -27,4 +37,31 @@ html {
 
 .logo span {
   margin: 0.66rem 0;
+}
+
+/*Hero*/
+.hero {
+  height: 25rem;
+  background: url(../img/moto.jpeg) no-repeat center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.banner-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 9rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  max-width: 20rem;
+  padding: 2rem 3rem;
 }
