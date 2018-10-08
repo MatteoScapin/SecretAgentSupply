@@ -65,3 +65,17 @@ h2 {
   max-width: 20rem;
   padding: 2rem 3rem;
 }
+
+/*Navbar*/
+nav {
+  background-color: firebrick;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 0;
+}
